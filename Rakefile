@@ -16,6 +16,8 @@ task :test do
 	  files:       [
 	  				"include/internal/cef_types_linux.h",
 	  				"include/internal/cef_types.h",
+            "include/internal/cef_string.h",
+            "include/internal/cef_string_types.h",
 	  				"include/capi/cef_base_capi.h",
 	  				"include/capi/cef_browser_process_handler_capi.h",
 	  				"include/capi/cef_app_capi.h"
