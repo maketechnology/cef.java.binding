@@ -19,9 +19,10 @@ task :test do
             "include/internal/cef_string.h",
             "include/internal/cef_string_types.h",
 	  				"include/capi/cef_base_capi.h",
-	  				"include/capi/cef_browser_process_handler_capi.h",
-	  				"include/capi/cef_app_capi.h",
-	  				"include/capi/cef_command_line_capi.h",
+            "include/capi/cef_client_capi.h",
+            "include/capi/cef_command_line_capi.h",
+            "include/capi/cef_browser_process_handler_capi.h",
+            "include/capi/cef_app_capi.h",
             "include/capi/cef_browser_capi.h"
 	  			   ]
 	)
