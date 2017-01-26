@@ -24,7 +24,8 @@ task :test do
             "include/capi/cef_browser_process_handler_capi.h",
             "include/capi/cef_app_capi.h",
             "include/capi/cef_browser_capi.h",
-            "X11/Xlib.h"
+            "include/capi/cef_focus_handler_capi.h",
+          #  "X11/Xlib.h"
 	  			   ]
 	)
 end
